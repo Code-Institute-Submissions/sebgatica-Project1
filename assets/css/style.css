@@ -54,6 +54,10 @@ nav>a {
     margin: none;
 }
 
+nav>a:hover {
+    color: silver;
+}
+
 footer {
     background-color: #789750d1;
     padding: 1em;
@@ -152,4 +156,38 @@ img {
     margin-right: 16px;
     margin-left: 16px;
 
+}
+
+#contact {
+    margin-bottom: 50px;
+}
+
+div {
+    display: block;
+}
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+    float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -20px;
+    float: right;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
 }
