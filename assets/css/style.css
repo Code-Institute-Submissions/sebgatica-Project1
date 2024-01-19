@@ -9,9 +9,13 @@
     text-align: center;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
 .page-header {
     height: 25vh;
-    background: center 75% / cover no-repeat;
+    background: center 59% / cover no-repeat;
 }
 
 header {
@@ -19,10 +23,10 @@ header {
 }
 
 header {
-    color: beige;
+    color: #789750d1;
 }
 
-user agent stylesheet header {
+header {
     display: block;
 }
 
@@ -30,4 +34,48 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     background-color: whitesmoke;
+}
+
+.beige-background {
+    background-color: #c38f8f;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav {
+    display: block;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #1e2516d1;
+    margin: none;
+}
+
+footer {
+    background-color: #789750d1;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+footer {
+    display: block;
+}
+
+footer>span {
+    color: #c38f8f;
+}
+
+footer>a {
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 0.8rem;
 }
