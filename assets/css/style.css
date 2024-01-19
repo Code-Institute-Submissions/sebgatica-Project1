@@ -51,7 +51,7 @@ nav {
 nav>a {
     text-decoration: none;
     color: #1e2516d1;
-    margin: none;
+
 }
 
 nav>a:hover {
@@ -128,7 +128,7 @@ img {
 }
 
 img {
-    overflow-clip-margin: content-box;
+
     overflow: clip;
 }
 
@@ -190,4 +190,9 @@ div {
     height: 250px;
     margin: 0 auto;
     text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
 }
