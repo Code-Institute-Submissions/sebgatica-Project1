@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+#home {
+    background-image: url(../images/35987758_l_normal_none.jpg);
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page-header {
+    height: 25vh;
+    background: center 75% / cover no-repeat;
+}
+
+header {
+    background-color: black;
+}
+
+header {
+    color: beige;
+}
+
+user agent stylesheet header {
+    display: block;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
