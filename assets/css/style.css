@@ -129,11 +129,27 @@ img {
 }
 
 #about {
-    padding: 1rem 0;
+    padding-bottom: 280px;
     margin-bottom: 80px;
     background-color: chocolate;
 }
 
 .spacer {
     clear: both;
+}
+
+.about-box {
+    background-color: brown;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+
+.list-box {
+
+    padding-left: 0px;
+    border-right-width: 20px;
+    margin-right: 16px;
+    margin-left: 16px;
+
 }
