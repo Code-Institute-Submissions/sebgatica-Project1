@@ -60,7 +60,7 @@ nav>a:hover {
 
 footer {
     background-color: #789750d1;
-    padding: 1em;
+    padding: 0em;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -80,7 +80,7 @@ footer>span {
 footer>a {
     color: beige;
     text-decoration: none;
-    padding: 0 15px;
+    padding: 0em;
     font-size: 0.8rem;
 }
 
@@ -167,8 +167,11 @@ div {
 }
 
 .contact-boxes-container {
-    width: 66%;
+    width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
@@ -195,4 +198,18 @@ div {
 a:hover {
     text-decoration: none;
     color: chocolate;
+}
+
+
+@media (max-width:600px) {
+    body {
+        background-color: red;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
 }
